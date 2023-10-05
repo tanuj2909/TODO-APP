@@ -150,4 +150,4 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
 
-mongoose.connect('mongodb+srv://tanuj:z3UZbdBCTyad5JeU@cluster0.tgbhlws.mongodb.net/', { dbName: "TODO-APP" });
+mongoose.connect('mongodb://mongodb:27017', { dbName: "TODO-APP" });
